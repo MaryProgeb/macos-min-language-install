@@ -1,0 +1,17 @@
+{
+    "\UF729"  = moveToBeginningOfLine:; // home
+    "\UF72B"  = moveToEndOfLine:; // end
+    "$\UF729" = moveToBeginningOfLineAndModifySelection:; // shift-home
+    "$\UF72B" = moveToEndOfLineAndModifySelection:; // shift-end
+    "@\UF729" = moveToBeginningOfDocument:; // command-home
+    "@\UF72B" = moveToEndOfDocument:; // command-end
+    "@$\UF729" = moveToBeginningOfDocumentAndModifySelection:; // command-shift-home
+    "@$\UF72B" = moveToEndOfDocumentAndModifySelection:; // command-shift-end
+    "@\UF702"  = "moveWordLeft:"; // command-left
+    "@\UF703"  = "moveWordRight:"; // command-right
+    "@$\UF702" = "moveWordLeftAndModifySelection:"; // command-shift-left
+    "@$\UF703" = "moveWordRightAndModifySelection:"; // command-shift-right
+    "@\U007F"   = "deleteWordBackward:";         // command-backspace
+    "@\UF728"   = "deleteWordForward:";          // command-delete
+}
+
